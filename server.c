@@ -227,6 +227,8 @@ int main(int argc, char* argv[])
 		/*info resource*/
 	info_resource = coap_resource_init((unsigned char *)"information", 11, 0);
 	coap_register_handler(info_resource, COAP_REQUEST_GET, Coreinfo_get_handler);
+	coap_register_handler(info_resource, COAP_REQUEST_DELETE, Coreinfo_delete_handler);
+	coap_register_handler(info_resource, COAP_REQUEST_POST, Coreinfo_post_handler);	
 	coap_add_resource(ctx, info_resource);
 
 	/*Listen for incoming connections*/
