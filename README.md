@@ -1,11 +1,11 @@
 # About
-A example to transform some data use libcoap
-there exit a server.c file that can transform:
+A example to transmission some data use libcoap
+there exit a server.c file that can deliver:
  
 * cpu core temperature
-* cpu informatiion (cpu name,cache size,memory size)
+* cpu information (cpu name,cache size,memory size)
 
-clint use a plugin on firefox 
+client use a plugin on firefox 
 Copper : https://addons.mozilla.org/en-US/firefox/addon/copper-270430/
  
  #funtion
