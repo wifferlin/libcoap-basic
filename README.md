@@ -26,6 +26,7 @@ Copper : https://addons.mozilla.org/en-US/firefox/addon/copper-270430/
 ##lm-sensors
 
 * sudo apt-get install lm-sensors
+
 ##x86info
 
 * sudo apt-get install x86info
