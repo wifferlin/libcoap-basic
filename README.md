@@ -8,7 +8,7 @@ there exit a server.c file that can deliver:
 client use a plugin on firefox 
 Copper : https://addons.mozilla.org/en-US/firefox/addon/copper-270430/
  
- #funtion
+#funtion
  Can use GET to get data , DELETE to delete the resource , POST to create resource 
  
 #libcoap install
