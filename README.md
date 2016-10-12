@@ -5,10 +5,13 @@ there exit a server.c file that can deliver:
 * cpu core temperature
 * cpu information (cpu name,cache size,memory size)
 
-client use a plugin on firefox 
+##client use a plugin on firefox 
 Copper : https://addons.mozilla.org/en-US/firefox/addon/copper-270430/
- 
-#funtion
+
+##client use client.c 
+client have simple GET function can get the data
+
+#Function
  Can use GET to get data , DELETE to delete the resource , POST to create resource 
  
 #libcoap install
@@ -31,10 +34,10 @@ Copper : https://addons.mozilla.org/en-US/firefox/addon/copper-270430/
 
 * sudo apt-get install x86info
     
-#example
+#Example
 
 * git clone https://github.com/wifferlin/libcoap-basic.git
 * cd libcoap-basic
 * make
 * ./server
-* open firefox key in coap://127.0.0.1
+* ./client  or  open firefox key in coap://127.0.0.1
