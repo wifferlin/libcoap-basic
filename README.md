@@ -5,14 +5,14 @@ there exit a server.c file that can deliver:
 * cpu core temperature
 * cpu information (cpu name,cache size,memory size)
 
+#Function
+ Can use GET to get data , DELETE to delete the resource , POST to create resource 
+
 ##client use a plugin on firefox 
 Copper : https://addons.mozilla.org/en-US/firefox/addon/copper-270430/
 
 ##client use client.c 
-client have simple GET function can get the data
-
-#Function
- Can use GET to get data , DELETE to delete the resource , POST to create resource 
+client.c have simple GET function can get the data
  
 #libcoap install
  
